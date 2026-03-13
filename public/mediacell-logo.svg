@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Outer white circle -->
+  <circle cx="250" cy="250" r="230" fill="#ffffff" />
+  
+  <!-- Inner black square -->
+  <rect x="110" y="110" width="280" height="280" fill="#111111" />
+  
+  <!-- Top Left Viewfinder Corner -->
+  <path d="M 135 180 L 135 135 L 180 135" stroke="#ffffff" stroke-width="6" fill="none" />
+  
+  <!-- Top Right Viewfinder Corner -->
+  <path d="M 320 135 L 365 135 L 365 155" stroke="#ffffff" stroke-width="6" fill="none" />
+  
+  <!-- Bottom Left Viewfinder Corner -->
+  <path d="M 135 270 L 135 325 L 175 325" stroke="#ffffff" stroke-width="6" fill="none" />
+  
+  <!-- Bottom Right Viewfinder Corner -->
+  <path d="M 320 325 L 365 325 L 365 250" stroke="#ffffff" stroke-width="6" fill="none" />
+  
+  <!-- Recording Red Dot -->
+  <circle cx="330" cy="165" r="16" fill="#ff0000" />
+  
+  <!-- Text -->
+  <text x="150" y="230" font-family="'Courier New', Courier, monospace" font-weight="900" font-size="34" fill="#ffffff" letter-spacing="1">Media</text>
+  <text x="150" y="270" font-family="'Courier New', Courier, monospace" font-weight="900" font-size="34" fill="#ffffff" letter-spacing="1">Cell</text>
+  <text x="150" y="310" font-family="'Courier New', Courier, monospace" font-weight="900" font-size="34" fill="#ffffff" letter-spacing="1">JEC</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050320" />
+      <stop offset="50%" stop-color="#150a4a" />
+      <stop offset="100%" stop-color="#2a0066" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+         <feMergeNode in="blur" />
+         <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glowSmall" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+         <feMergeNode in="blur" />
+         <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="64" fill="url(#bg)" />
+
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.6" filter="url(#glowSmall)">
+     <circle cx="60" cy="180" r="1.5" />
+     <circle cx="120" cy="80" r="2.5" />
+     <circle cx="450" cy="150" r="2" />
+     <circle cx="380" cy="70" r="1.5" />
+     <circle cx="340" cy="420" r="2.5" />
+     <circle cx="120" cy="400" r="1.5" />
+     <circle cx="280" cy="470" r="2" />
+     <circle cx="480" cy="350" r="2" />
+     <circle cx="80" cy="300" r="2" />
+     <circle cx="220" cy="360" r="1.5" />
+  </g>
+
+  <!-- Text -->
+  <text x="256" y="160" font-family="'Inter', 'Roboto', 'Segoe UI', sans-serif" font-weight="900" font-size="94" fill="#ffffff" text-anchor="middle" letter-spacing="4">KYC</text>
+
+  <!-- Line 1 (Top / Cyan) -->
+  <path d="M 50 250 Q 256 180 462 250" stroke="#7eb6ff" stroke-width="8" stroke-linecap="round" fill="none" filter="url(#glow)"/>
+  <circle cx="256" cy="215" r="9" fill="#ffffff" filter="url(#glow)"/>
+
+  <!-- Line 2 (Middle / Purple) -->
+  <path d="M 50 300 Q 180 250 280 290 T 462 290" stroke="#9d4edd" stroke-width="6" stroke-linecap="round" fill="none" filter="url(#glow)"/>
+  <circle cx="178" cy="273" r="7" fill="#ffffff" filter="url(#glowSmall)"/>
+  <circle cx="340" cy="298" r="7" fill="#ffffff" filter="url(#glowSmall)"/>
+
+  <!-- Line 3 (Bottom / White-Cyan) -->
+  <path d="M 50 350 Q 256 330 350 360 T 462 340" stroke="#cddeff" stroke-width="6" stroke-linecap="round" fill="none" filter="url(#glow)"/>
+  <circle cx="370" cy="355" r="8" fill="#ffffff" filter="url(#glow)"/>
+</svg>
