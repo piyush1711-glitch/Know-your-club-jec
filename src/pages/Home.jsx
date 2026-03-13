@@ -196,7 +196,7 @@ export default function Home() {
       {/* 3. AI Club Finder / Search Section */}
       <section id="search-section" className="pt-24 pb-8 px-4 z-10 sticky top-0 bg-brand-gradient/90 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-4xl mx-auto text-center">
-           <h2 className="text-3xl font-bold mb-8 text-white">AI Club Finder</h2>
+           <h2 className="text-3xl font-bold mb-8 text-white">Explore clubs</h2>
            <motion.div 
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
