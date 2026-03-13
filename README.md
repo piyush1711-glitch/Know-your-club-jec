@@ -1,3 +1,23 @@
+# Know Your Club – JEC
+
+Know Your Club is a platform designed to help first-year students discover clubs at JEC and join communities aligned with their interests.
+
+## Problem
+During induction, many clubs approach students simultaneously which creates confusion.
+
+## Solution
+A centralized website where students can explore clubs and find the best one for them.
+
+## Features
+- Club discovery
+- Club information pages
+- AI-based club recommendation
+- Interactive UI
+
+## Tech Stack
+Frontend: React / Next.js
+Styling: Tailwind CSS
+Backend: Firebase 
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
